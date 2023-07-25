@@ -1,9 +1,11 @@
 import {Slot} from "expo-router";
-// import {Provider} from "@/lib/context/auth";
+import Wrapper from "@/lib/Providers/Wrapper";
 
 export default function MainLayout(){
 
     return(
-        <Slot />
+        <Wrapper>
+            <Slot />
+        </Wrapper>
     )
 }

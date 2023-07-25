@@ -7,4 +7,8 @@ It also contains the following:
 * redux-toolkit
 * react-native-reanimated
 * @expo/vector-icons
+• nativewind
+* Bottom Sheets
+* Hold Menu
+* Context Menu
 * lib folder

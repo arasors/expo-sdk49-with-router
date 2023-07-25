@@ -16,7 +16,7 @@ export default function Home() {
 
     return (
         <View style={{flex: 1, justifyContent: "center", alignItems: "center"}}>
-            <Text style={{fontSize: 60}}>Home</Text>
+            <Text className={"font-medium text-6xl"}>Home</Text>
         </View>
     );
 }
